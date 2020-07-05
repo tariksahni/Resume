@@ -1,0 +1,422 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{tarikCrop.png}\\[\baselineskip] % Your photo
+\small % Smaller font size
+\blueColorText {\textbf{Tarik Sahni}}
+\url{tariksahni@gmail.com} \\ % Your email address
+\url{www.tariksahni.com} \\ % Your URL
++91-7831838003 \\ % Your phone number
+\Sep % Some whitespace
+\blueColorText {\textbf{Links}}
+Github: \href{https://github.com/tariksahni}{tariksahni} \\
+LinkedIn: \href{https://www.linkedin.com/in/tariksahni/}{tariksahni} \\
+Twitter: \href{https://twitter.com/tarik_sahni}{@tarik\_sahni} \\
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Tarik Sahni} % Large heading - your name
+
+\cvsubheading{Front-End Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{Creative and self-starting Front-End Developer with 2+ years experience building stable E2E websites and apps in fast-paced, collaborative environments with great performane and SEO. Highly skilled in HTML/CSS/JavaScript and working knowledge of Web frameworks. Well-versed in Scrum and Agile.}
+\Sep
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\Education{2017 - 2013, National Institute of Technology, Hamirpur}{B.Tech in Computer Science}{\textit {CGPA: 7.5}}
+\Education{2013, S.S.R.V.M Una, Himachal Pradesh }{Class XII}{ \textit 90.6\%}
+\Education{2011, D.A.V Centenary Public School Una, Himachal Pradesh}{Class X}{\textit {CGPA: 10}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+\Sep
+
+\CVSection{Software Development Skills}
+
+%------------------------------------------------
+
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Javascript(ES6+) &  \bluebullet React/Redux & \bluebullet Next.js\\
+\bluebullet Svelte & \bluebullet C/C++ & \bluebullet Python\\
+\bluebullet Node.js & \bluebullet AWS  & \bluebullet Git \\
+\bluebullet Webpack & \bluebullet LightHouse  & \bluebullet AMP \\
+\end{tabular}}
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+\Sep
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience(> 2.5 Years)}
+
+%------------------------------------------------
+\SmallSep
+\CVItem{Oct 2018 - present, \textit{Lead Front-End Engineer}, HEADOUT}{
+\SmallSep
+\projectDescriptionNoSpace{Tech Stack:}{(FE): NextJS, React, Redux, ImmutableJs. (BE): Kotlin, Java, Python.}
+\SmallSep
+\textit{\blueColorText {KEY PROJECTS :}}\par
+\SmallSep
+\SmallSep
+\begin{itemize}
+     \item\boldBlue{NextJS Migration}
+      \SmallSep
+     \projectDescription{Description}{I migrated the old legacy react codebase into powerful nextjs framework single handedly. We achieved some great wins in terms of SEO, Developer Experience, SSR, Page Speed Optimizations.}
+  \SmallSep
+    \projectDescriptionNoSpace{Achievements: }{}
+        \begin{itemize}
+        	\item SEO Wins: 
+        	\begin{itemize}
+        	    \item Page Crawled per day increased from 23k to 110k. 
+        	    \item Kilobytes downloaded per day increased from 433k to 661k. 
+        	    \item Time Spending per day decreased from 175 to 45. 
+        	    \item We saw increase in organic traffic.
+        	\end{itemize}
+        	\item Developer Experience Improvements: 
+        	\begin{itemize}
+        	    \item Single Route file for Mweb and Desktop. 
+        	    \item Ease in AMP development. 
+        	    \item LightWeight Infra and wait time for developer via Fast Refresh.
+            \end{itemize}
+            \item Server Side Rendering: 
+                \begin{itemize}
+                    \item In-built support from Next.js
+                    \item Got rid of legacy inhouse setup. 
+                \end{itemize}
+            \end{itemize}
+\end{itemize}
+}
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+\begin{itemize}
+\item\boldBlue {Website Performace Optimizations}
+          \SmallSep
+        \projectDescriptionNoSpace{Achievements: }{}
+\begin{itemize}
+        	\item Increased the page speed score from ~10 to ~40+ on Mobile and 40 to ~75+ on desktop on lighthouse.
+    	    \item decreasing TTFB by 55\% and TTI by 40\%. 
+            \end{itemize}
+        \SmallSep
+        \SmallSep
+        \SmallSep
+     \item\boldBlue{Tackling COVID-19 Pandemic}
+      \SmallSep
+     \projectDescription{Description}{Being in travel industry we were affected by the psandemic adversly. I kicked in some projects/idea to have immediate sales for Headout.}
+  \SmallSep
+    \projectDescriptionNoSpace{Implementations: }{}
+        \begin{itemize}
+        	\item Headout Credits: 
+        	\begin{itemize}
+        	    \item User can buy credits/gift credits and get some discount on them. 
+        	\end{itemize}
+        	        	\item Discounted Features: 
+        	\begin{itemize}
+        	    \item User can buy experiences on discounted price and go whenever it's safe. 
+        	\end{itemize}
+        	        	\item Safe Experiences: 
+        	\begin{itemize}
+        	    \item The experiences will have the safety details/regulations followed by the vendors at the spot.
+        	\end{itemize}
+        	
+            \end{itemize}
+        \SmallSep
+        \SmallSep
+        \SmallSep
+        \item\boldBlue {Analytics events tracking Setup to GTM/Amplitude}
+                \SmallSep
+        \SmallSep
+        \SmallSep
+        \item\boldBlue {3ds payment implementation via checkout/stripe}
+                \SmallSep
+        \SmallSep
+        \SmallSep
+\end{itemize}
+\CVItem{March 2018 - September 2017, \textit{Front-end Consultant}, Mckinsey \& Company/ Xebia}{
+\SmallSep
+\textit{\blueColorText {PROJECTS :}}\par
+\SmallSep
+\SmallSep
+\begin{itemize}
+     \item\boldBlue{COBI( Consumers Operational Benchmarking Initiative, McKinsey Digital Labs)}
+      \SmallSep
+     \projectDescription{Description}{A
+Web/iPad Application for CPG industries to analyse their plants performance in hundreds of fields andparameters and also compare with their competitors. Different types of graphs are used to compare and study the plants Activities. It has three sections. Client Section, Admin Section, Plant Manager Section.}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{(FE): React, Redux, Redux-Sagas, HTML, CSS, HighCharts. (BE): NodeJS, HapiJs, Sequalize.
+}
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item FrontEnd Lead for the Project. Development of different responsive screens and Integration with the APIs.
+            \item Finalizing which library or support tool to be used in the project for FrontEnd.
+            \item Code Review / Bug Fixes
+            \item Deployment
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+        \SmallSep
+        \item\boldBlue{Telco War Room Game (McKinsey Digital Labs)}
+         \SmallSep
+     \projectDescription{Description}{An Agile Simulation Game in which the aim of every team is to maximize the profit/orders of a newly launched product. You are
+given particular budget at the starting of the game. There were 3 rounds before launch , day of
+launch and after launch.}
+\end{itemize} 
+}
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+\begin{itemize}
+\item 
+\projectDescriptionNoSpace{Tools \& Technology: }{(FE):React, Redux, Redux-Thunk, HTML, CSS.}
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Development of various  frontend screens of every round, Dashboard, Ranking Board.
+            \item Integration/Mapping of Excel API into FrontEnd
+            \item Code Review / Bug Fixes.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+         \item\boldBlue{Tele Sales Dashboard (McKinsey Digital Labs)}
+          \SmallSep
+     \projectDescription{Description}{A Dashboard for the call centers to check and analyse the performance and productivity of the service provided to the users.  A React-Redux based dashboard which helps the client to have a graphical representation of the data.}
+      \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{React, Redux, HTML, CSS3}
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Designed and Developed the Frontend part of the project single handedly. 
+        	\item Bringing mock-ups to life using HTML, CSS, JavaScript.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+ \item\boldBlue{VMP (MDL Telco Video App)}
+          \SmallSep
+     \projectDescription{Description}{React-Native Based Video app for listing videos from various data providers and helping the user to select appropriate data package for that. (Android and iOS supported).
+}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{React Native, Redux, HTML , CSS}
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Designed the Drawer (Menu Navigator), Video Details Page for the app.
+            \item Bug Fixes for both iOS and Android.
+            \item Test Cases for the component.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+\item\boldBlue{IRPC 4.0 \& Banpu 4.0}Also, did small LOP projects for MDL. An application for the leadership team of the Client to give away the presentation. (I-Pad App)
+\end{itemize}
+\SmallSep
+\SmallSep
+\SmallSep
+%------------------------------------------------
+%------------------------------------------------
+\CVItem{September 2017 - June 2017, \textit{Student}, NIT Hamirpur}{
+\SmallSep
+\textit{\blueColorText {PROJECTS :}}\par
+\SmallSep
+\SmallSep
+\begin{itemize}
+     \item\boldBlue{Connect.Ed}
+      \SmallSep
+     \projectDescription{Description}{Connect.Ed is a Information web application about the colleges of India and news related to them. It also contains alumni network so that we can interact with them. Login with Facebook is integrated.}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{
+}JavaScript, PhoneGap, NodeJs, ExpressJS, MongoDB, HTML, CSS
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Created API’s to get/post Colleges Details, sign up , login which is needed in the entire project using ExpressJs.
+            \item Created connection with MongoDB, storing/fetching data from it.
+            \item Created UI using HTML, CSS, and JavaScript, Integrated Fb login.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+        \SmallSep
+\end{itemize} 
+}
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+\begin{itemize}
+
+  \item\boldBlue{Plagiarism detection tool}
+         \SmallSep
+     \projectDescription{Description}{A plagiarism detection tool which help to detect plagiarism in the document. The document is uploaded and using Google search API’s, the plagiarism is detected. It shows the links and website from where the content is copied. It also shows the plagiarism percentage.}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{PHP, HTML, CSS , Google Search API’s }
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Created UI using HTML and CSS.
+            \item Contributed in implementing the Google API’s.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+          \item\boldBlue{NIT-H Result Compilation}
+         \SmallSep
+     \projectDescription{Description}{A Result Scrapper which scrapes the data from institute website (www.nith.ac.in). It implements an easy analysis of results by saving the entire result in excel sheet.}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{JavaScript using CheerioJs and ExcelJs Library. }
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Writing the script and implementing the JavaScript Library to store the results in Excel Sheet 
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+          \item\boldBlue{Scrapper: Chrome Extension}
+         \SmallSep
+     \projectDescription{Description}{A chrome extension to scrape the websites. It has a basic architecture that scrapes the fields that the user enters manually.}
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{ReactJS, JavaScript, Chrome extension API's. }
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Designed the UI using React library.
+        	\item Implemented Chrome Message passing from browser to the extension.
+        	\item Implemented Chrome Extension API’s for storage and Communication.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+
+ \item\boldBlue{Order Alarm}
+         \SmallSep
+     \projectDescription{Description}{An ORDER ALARM (for E-Commerce Startup) which calls an API in the backend and checks for the newly received order. The script was added to Crontab file to automate the script when the }
+ \SmallSep
+ \projectDescriptionNoSpace{Tools \& Technology: }{Python3 , Raspberry Pi }
+  \SmallSep
+    \projectDescriptionNoSpace{Responsibilities: }{}
+        \begin{itemize}
+        	\item Code for the script.
+        	\item Configuring the RaspberryPi.
+        \end{itemize}
+        \SmallSep
+        \SmallSep
+         \SmallSep
+\end{itemize}
+
+%------------------------------------------------
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Talks}
+
+%------------------------------------------------
+
+\CVItem{2019, \textit{JS Meetup \#38} }{Delivered a talk on "Understanding the Javascript Number Game".}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+\Sep 
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+Traveling, reading, hiking, running, Table Tennis, Cricket.
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
